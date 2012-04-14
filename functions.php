@@ -5,7 +5,7 @@ function buildDefaultPage($userToGet) {
     $user = $userToGet;
     $typeofpage = "experience";
     $returnHtml = "";
-    //and now I'm adding something to see how git handles it.
+    //and now I'm adding something to see how git handles it.  Yeah, now I'm going to add something else.
     //make SQL query to get data for current user
     $userquery = "SELECT * FROM users WHERE username = '" . $user . "'";
     $userresults = queryMysql($userquery);
