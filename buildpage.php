@@ -6,7 +6,7 @@
 
 <?php // buildpage.php
     
-    //when page is run in ajax call, this code evaluates
+    //when page is run in ajax call, this code evaluates.  Adding to see git hub in action.
     
     if (isset($_POST['calltype'])){
         
