@@ -1,0 +1,436 @@
+
+
+@font-face {
+ font-family: Alfaslabone;
+ src: url("/Fonts/Matiz.eot") /* EOT file for IE */
+}
+
+
+
+
+
+
+#connectnavbar{
+	left: 0px;
+}
+
+#maincontainer{
+
+/*Make the background cover the maincontainer size... because IE doesn't support background-size: cover;*/
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+src="/content/Themes/woodendesk.jpg",
+sizingMethod='scale');
+
+-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(
+src="/content/Themes/woodendesk.jpg",
+sizingMethod='scale')";
+
+}
+
+
+
+/**************************************************************************************/
+/**************************************************************************************/
+/* 									UPPER CONTAINER 								  */
+/**************************************************************************************/
+/**************************************************************************************/
+
+
+
+
+#uppercontainer {
+
+/* For IE 5.5 - 7*/
+/*filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000, endColorstr=#66000000);*/
+/* For IE 8*/
+/*-ms-filter:&quot;progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000, endColorstr=#66000000)&quot;
+filter: progid:DXImageTransform.Microsoft.Alpha(opacity=40);*/
+
+}
+
+#mainphoto {
+    float:left;
+    width: 180px;
+    height: 200px;
+    padding: 10px; 
+}
+
+
+#profilepicture {
+    height: 170px;
+}
+
+
+#toptext {
+    float:left;
+    width: 660px;
+    padding-left:20px;  
+}
+
+#toptext h1 {
+	font-family: Alfaslabone,'Lucida Grande', Verdana, Arial, Sans-Serif;
+	color: #A1A69B;
+	width: 700px;
+	height: 50px;
+	font-size: 40px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 0;
+	padding-bottom: 0;
+	text-shadow:-1px 1px 2px #333333;
+
+}
+
+#toptext h2 {
+	font-family: Alfaslabone,'Lucida Grande', Verdana, Arial, Sans-Serif;
+	color: white;
+	font-size: 23px;
+	width: 700px;
+	height: 36px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 0;
+	padding-bottom: 0;
+	text-shadow:-1px 1px 2px #333333;
+}
+
+#toptext h3 {
+	font-family: Verdana, Arial, Sans-Serif;
+	color: #F0E8D1;
+	font-size: 18px;;
+	font-weight: bold;
+	width: 700px;
+	height: 25px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 0;
+	padding-bottom: 0;
+	text-shadow:-1px 1px 2px #333333;
+}
+#toptext p {
+	font-family: Verdana, Arial, Sans-Serif;
+	color: #FFAE49;
+	font-size: 14px;
+	font-style: italic;
+	width: 700px;
+	height: 48px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 0;
+	padding-bottom: 0;
+	text-shadow:-1px 1px 2px #333333;
+}
+
+#navbar {
+    float:left;
+    padding-left:20px;
+    width:70%;
+    position: absolute;
+    bottom: 0px;
+    left: 180px;
+}
+
+
+.hornav{
+		
+	zoom: 1; /* to use have layout IE property*/
+    float:left;
+    width:18%;
+    height: 22px;
+    text-align:center;
+    background-color:#7D8583;
+    margin: 0 0 0 0;
+    padding-top: 2px;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color:white;
+    font-size: 14px;
+
+}
+
+.hornavselected{
+	background: white;
+}
+
+
+/**************************************************************************************/
+/* 									LOWER CONTAINER 								  */
+/**************************************************************************************/
+
+
+
+#lowercontainer {
+    background-color:none;
+    width: 960px;
+    margin:auto;
+    padding:0 0 5px 0;
+    height:430px;
+    position:relative;
+    
+	/*User opacity of 60% comes from: http://www.jerindo.net/articles/css-background-transparency-without-affecting-child-elements/1/ */
+	*/ Fallback for web browsers that doesn't support RGBa */
+	background: rgb(255, 255, 255);
+	/* RGBa with 0.6 opacity */
+	background: rgba(255, 255, 255, 0.4);
+
+}
+
+
+
+.timeline {
+    text-align:center;
+    background:blue;
+    margin:auto;
+    width:960px;
+    height:30px;
+    position: relative;
+    text-align: center;
+    top: 0;
+	background-image: url("/content/Themes/TL_ruller_texture.jpg");
+}
+.jobnavcolumn {
+    width:12%;
+    float:left;
+    background:white;
+    height:405px;
+    margin: 0px 1% 0 0px;
+    
+	/*User opacity of 60% comes from: http://www.jerindo.net/articles/css-background-transparency-without-affecting-child-elements/1/ */
+	*/ Fallback for web browsers that doesn't support RGBa */
+	background: rgb(255, 255, 255);
+	/* RGBa with 0.6 opacity */
+	background: rgba(255, 255, 255, 0.2);
+	/* For IE 5.5 - 7*/
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#32FFFFFF, endColorstr=#32FFFFFF);
+	/* For IE 8*/
+	-ms-filter:&quot;progid:DXImageTransform.Microsoft.gradient(startColorstr=#32FFFFFF, endColorstr=#32FFFFFF)&quot;
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=20);
+}
+
+.joboverview {
+    width:28%;
+    float:left;
+    background:white;
+    height:350px;
+    margin:30px 1% 0 1%;
+	    
+	 /*Drop a shadow on the cards*/
+	 /*http://www.alsacreations.com/tuto/lire/910-creer-des-ombrages-ombres-css-box-shadow-text-shadow.html*/
+    box-shadow: 8px 8px 12px #333333;
+}
+
+.jobtaskinfo{
+    width:54%;
+    float:left;
+    background:white;
+	height:350px;
+    margin:30px 1% 0 1%;
+    
+    /*Drop a shadow on the cards*/
+ 	/*http://www.alsacreations.com/tuto/lire/910-creer-des-ombrages-ombres-css-box-shadow-text-shadow.html*/
+	box-shadow: 8px 8px 12px #333333;
+   
+}
+
+.navimgoutcont{
+    width:94px;
+    height: 55px;
+    margin:auto;
+    background: white;
+    margin-top:5%;
+}
+
+.navimgincont{
+    width:100%;
+    margin:auto;
+}
+
+.jobnavbarlogo{
+	width:100%;
+	position: relative;
+}
+
+.borderjoboverview{
+    width:90%;
+    margin:auto;
+    border: 1px solid black;
+}
+
+
+#borderjoboverview h1{
+    font-size:18px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+sectiontext{
+	color: grey;
+	font-style: italic;
+	font-size: 14px;
+}
+
+sectioncontent{
+	font-size: 14px;
+	font-weight: bold;
+}
+
+
+ summarytext{
+ 	font-size: 14px;
+ 	font-style: italic;
+ }
+ 
+ 
+.carousel{
+    z-index:1;
+    height:250px;
+    
+    border:1px solid black;
+}
+
+.cloudcarouseltext{
+    position:relative;
+    font-size:13px;
+    padding:0;
+    margin-top:3px;
+}
+
+.cloudcarousel{
+    position:relative;
+    width:100%;
+    
+}
+
+.cloudcarouselimgdiv{
+    position:relative;
+    margin:auto;
+}
+
+.cloudcarouselcontdiv{
+    position:absolute;
+    margin:auto;
+    text-align:center;
+}
+
+.textinmorecontent {
+    float:left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left:15px;
+    font-style: italic;
+    font-size: 13px;
+    border:1px solid black;
+}
+
+.additionaltaskcontent {
+    z-index:5;
+    float:right;
+    width:140px;
+    font-size:13px;
+    margin:0px 10px 10px 10px;
+    position:relative;
+}
+
+.expandablecontent{
+    position:absolute;
+    width:100%;
+    border-radius: 10px;
+    border: 2px solid black;
+    z-index:3;
+    margin:auto;
+    background-color: rgba(245, 245, 245, 0.9);
+    overflow:auto;
+    padding-bottom:30px;
+    bottom:-5px;
+    display:none;
+}
+
+.expandablecontbut{
+    position:relative;
+    z-index:4;
+    margin:auto;
+    text-align:center;
+    margin-left:2px;
+    background-position: center;
+    background-repeat:no-repeat;
+    width:100%;
+    height:20px;
+    font-size: 12px;
+    color: #006CA2;
+    font-weight: bold;
+    
+}
+
+.educard{
+    width:50%;
+    height:50%;
+    background:white;
+    margin:auto;
+    position:relative;
+    top:100px;
+}
+
+.educard h1{
+    font-size:18px;
+}
+
+#educard1{
+    z-index:3;
+}
+
+#educard2{
+    z-index:2;
+    top:-200 px;
+    left:50px;
+    
+}
+
+.edulogo{
+    width:30%;
+    float:left;
+}
+
+.edutitle{
+    width:100%;
+}
+
+.educardleft{
+    float:left:
+    width:30%;
+}
+
+.educardright{
+    float:left;
+    width:70%;
+}
+
+
+.alpha60 {
+/* Fallback for web browsers that doesn't support RGBa */
+background: rgb(0, 0, 0);
+/* RGBa with 0.6 opacity */
+background: rgba(0, 0, 0, 0.6);
+/* For IE 5.5 - 7*/
+zoom:1;
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+/* For IE 8*/
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+
+
+
+
+#bottomcontainer {
+    background-color:#324751;
+    width: 960px;
+    height:96px;
+    position:relative;
+    margin: auto;
+
+	/*User opacity of 60% comes from: http://www.jerindo.net/articles/css-background-transparency-without-affecting-child-elements/1/ */
+	*/ Fallback for web browsers that doesn't support RGBa */
+	background: rgb(50, 71, 81);
+	/* RGBa with 0.6 opacity */
+	background: rgba(0, 0, 0, 0.4);
+}
+
